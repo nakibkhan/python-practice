@@ -11,5 +11,4 @@ if(age < 100):
 
 
 print "Your name is " + name
-print "You will be a Hundred Years old in %s"\
-      %(yearsToHundred)
+print "You will be a Hundred Years old in %s" %(yearsToHundred)
