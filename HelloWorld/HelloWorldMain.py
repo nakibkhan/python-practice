@@ -1,10 +1,8 @@
 import sys
 
-def main(argv='Hello World'):
+def main(argv=None):
   if argv is None:
     argv = sys.argv
-
-  else:
     print argv
 
 
