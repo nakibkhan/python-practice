@@ -12,4 +12,3 @@ class Employee(Person):
         print 'Name : %s, %s ' % (self.lastName, self.firstName)
         print 'Employee Number : %s' %(self.employeeNumber)
         return True
-

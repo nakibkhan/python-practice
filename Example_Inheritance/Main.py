@@ -11,3 +11,5 @@ if __name__ == "__main__":
     person2 = Person('Khan', 'Ashna')
     person2.isEmployee()
     print '---------------------------------------------------------'
+
+    person1.changeLastName('Smith')

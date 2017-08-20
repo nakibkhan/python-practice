@@ -15,3 +15,7 @@ class Person(object):
         print 'This is the super class Person'
         print 'Name : %s, %s ' %(self.lastName, self.firstName)
         return False
+
+    def changeLastName(self, newLastName):
+        self.lastName = newLastName
+        print 'The Last Name for this Person has been changed to %s' %(self.lastName)
