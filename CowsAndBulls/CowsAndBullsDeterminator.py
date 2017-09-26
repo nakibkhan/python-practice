@@ -14,8 +14,22 @@ class CowsAndBullsDeterminator(object):
         cows = 0
         bulls = 0
 
+        print zip(list_guess, list_random)
         for x,y in zip(list_guess, list_random):
-            print zip(list_guess, list_random)
             if(x==y):
-                ++cows
+                cows+=1
+
+        print '---------------------------------------'
+        print 'There are %s Cow(s)' %(cows)
+        print '---------------------------------------'
+
+        i = 0
+        while i < len(list_guess):
+            if (list_guess[i] in list_random) and (list_random.index(list_guess[i])!=i):
+                bulls+=1
+            i += 1
+
+
+        print 'There are %s Bull(s)' % (bulls)
+        print '---------------------------------------'
 

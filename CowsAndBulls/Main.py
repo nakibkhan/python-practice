@@ -12,5 +12,3 @@ if __name__ == "__main__":
 
     cowsAndBullsDeterminator = CowsAndBullsDeterminator(userGuessNumber, random.randint(1000,9999))
     cowsAndBullsDeterminator.determine()
-
-    print '------------------------------------------'
