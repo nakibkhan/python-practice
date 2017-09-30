@@ -2,8 +2,8 @@ import random
 from CowsAndBulls.CowsAndBullsDeterminator import CowsAndBullsDeterminator
 
 if __name__ == "__main__":
-    print "Entering Cows and Bulls Game !!!!!"
-    print '------------------------------------------'
+    print("Entering Cows and Bulls Game !!!!!")
+    print('------------------------------------------')
 
     userGuessNumber = 0
 

@@ -8,7 +8,7 @@ class Employee(Person):
         self.employeeNumber = employeeNumber
 
     def isEmployee(self):
-        print ("This Employee Class has over-ridden the Person Class")
-        print 'Name : %s, %s ' % (self.lastName, self.firstName)
-        print 'Employee Number : %s' %(self.employeeNumber)
+        print("This Employee Class has over-ridden the Person Class")
+        print('Name : %s, %s ' % (self.lastName, self.firstName))
+        print('Employee Number : %s' %(self.employeeNumber))
         return True

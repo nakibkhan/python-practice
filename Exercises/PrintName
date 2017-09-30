@@ -1,2 +1,0 @@
-name = raw_input("What is your name, Bitte ?")
-print "My Name is " + name

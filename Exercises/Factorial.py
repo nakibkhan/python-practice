@@ -6,6 +6,6 @@ def findFactorial(integer):
     else:
         return integer * findFactorial(integer - 1)
 
-print '-------------------------------'
-print 'Result : %s' %(findFactorial(number))
-print '-------------------------------'
+print('-------------------------------')
+print('Result : %s' %(findFactorial(number)))
+print('-------------------------------')
