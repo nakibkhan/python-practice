@@ -1,5 +1,8 @@
 def isPrime(number):
-    if(number == 2):
+    if number == 2 :
+        print('------------------------------------------------')
+        print('\t\t\t %s is a Prime Number' % (number))
+        print('------------------------------------------------')
         return True
     i = 2
     while (i <= number/2):
@@ -10,3 +13,12 @@ def isPrime(number):
     print('\t\t\t %s is a Prime Number' %(number))
     print('------------------------------------------------')
     return True
+
+i = 1
+num = 3
+
+while(i<=10001):
+    if(isPrime(num)):
+        i+=1
+        print('Result : %s' %(i))
+    num+=1
