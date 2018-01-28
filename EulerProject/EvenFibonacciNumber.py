@@ -1,3 +1,5 @@
+from Util import CheckPrime
+
 print('Finding all even Fibonacci Numbers')
 print('-------------------------------------------------')
 
