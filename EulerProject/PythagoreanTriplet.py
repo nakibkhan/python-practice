@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 i = 1
 j = 2
 k = 3

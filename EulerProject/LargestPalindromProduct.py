@@ -1,19 +1,17 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
+import sys
 from Util import CheckPalindrome
 
-integer = int(input('Please enter a number : '))
-print('Finding the largest Palidrome Product of %s' %(integer))
-print('-------------------------------------------------')
-
+integer = int(sys.argv[1])
 i = 2
 
 result = 1
-while(i < integer):
+while(i <= integer):
     j = 1
-    while(j <= i):
+    while(j <= integer):
         amount = i * j
-        cp = CheckPalindrome()
-        if (cp.isPalindrome(str(amount)) and amount > result):
+        cp = CheckPalindrome
+        if cp.isPalindrome(str(amount)) and amount > result:
             result = amount
         j+=1
     i+=1
