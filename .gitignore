@@ -1,5 +1,8 @@
 *.class
 *.pyc
 .idea
+.idea/*
+*misc.xml
+*python.iml
 
 
