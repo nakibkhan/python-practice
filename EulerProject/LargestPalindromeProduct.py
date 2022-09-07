@@ -6,15 +6,14 @@ integer = int(sys.argv[1])
 i = 2
 
 result = 1
-while(i <= integer):
+while i <= integer:
     j = 1
-    while(j <= integer):
+    while j <= integer:
         amount = i * j
         cp = CheckPalindrome
         if cp.isPalindrome(str(amount)) and amount > result:
             result = amount
-        j+=1
-    i+=1
+        j += 1
+    i += 1
 
-print('Largest Palindrome product : %s' %(result))
-
+print('Largest Palindrome product : %s' % (result))

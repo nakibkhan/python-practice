@@ -1,5 +1,4 @@
 from Util import CheckLCM
-from operator import mul
 
 number = int(input('Please enter a number : '))
 print('Finding smallest number divisible by number between 1 and %s' %(number))

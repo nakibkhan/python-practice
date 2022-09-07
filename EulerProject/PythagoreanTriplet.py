@@ -9,7 +9,7 @@ def isTriple(num1, num2, num3):
 
 
 def isSum1000(num1, num2, num3):
-    return num1 + num2 + num3 == 12
+    return num1 + num2 + num3 == 1000
 
 
 while not (isTriple(i, j, k) and isSum1000(i, j, k)):
