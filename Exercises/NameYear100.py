@@ -1,4 +1,3 @@
-import datetime as dt
 from datetime import datetime
 
 name = input("Can you please state your name ? ")

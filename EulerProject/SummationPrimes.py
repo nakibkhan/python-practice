@@ -6,8 +6,8 @@ print('-------------------------------------------------')
 
 i = 2
 prime_numbers = []
-while (i < integer):
-    if(CheckPrime.isPrime(i)):
+while i < integer:
+    if CheckPrime.isPrime(i):
         prime_numbers.append(i)
 
     i+=1
