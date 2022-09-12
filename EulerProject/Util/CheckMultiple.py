@@ -8,9 +8,10 @@ def isMultipleOfThree(number):
                 Returns a boolean on whether the number is multiple of 3.
             """
     listNum = [int(d) for d in str(number)]
-    if(sum(listNum) %3 == 0):
+    if sum(listNum) % 3 == 0:
         return True
     return False
+
 
 def isMultipleOfFive(number):
     """Checks if value is multiple of 5.
@@ -21,11 +22,12 @@ def isMultipleOfFive(number):
             Returns:
                 Returns a boolean on whether the number is multiple of 5.
             """
-    listNum= [int(d) for d in str(number)]
+    listNum = [int(d) for d in str(number)]
 
-    if(listNum[len(listNum) - 1] in [0, 5]):
+    if listNum[len(listNum) - 1] in [0, 5]:
         return True
     return False
+
 
 def isMultipleOfNine(number):
     """Checks if value is multiple of 9.
@@ -37,9 +39,10 @@ def isMultipleOfNine(number):
                 Returns a boolean on whether the number is multiple of 9.
             """
     listNum = [int(d) for d in str(number)]
-    if(sum(listNum) %9 == 0):
+    if sum(listNum) % 9 == 0:
         return True
     return False
+
 
 def isEven(number):
     """Checks if value is an even number.
@@ -50,4 +53,4 @@ def isEven(number):
             Returns:
                 Returns a boolean on whether the number is even or not.
             """
-    return(number%2 == 0)
+    return number % 2 == 0

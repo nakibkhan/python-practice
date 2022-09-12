@@ -6,16 +6,16 @@
 # equivalent to "class Person(object)"
 
 class Person(object):
-    #Constructor
+    # Constructor
     def __init__(self, firstName, lastName):
         self.firstName = firstName
         self.lastName = lastName
 
     def isEmployee(self):
         print('This is the super class Person')
-        print('Name : %s, %s ' %(self.lastName, self.firstName))
+        print('Name : %s, %s ' % (self.lastName, self.firstName))
         return False
 
     def changeLastName(self, newLastName):
         self.lastName = newLastName
-        print('The Last Name for this Person has been changed to %s' %(self.lastName))
+        print('The Last Name for this Person has been changed to %s' % self.lastName)
