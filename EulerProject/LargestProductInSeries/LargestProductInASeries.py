@@ -1,19 +1,30 @@
 textFile = 'thousand_digit.txt'
 numbers = []
+
+
+def findGreatestProduct(line_numbers, result_list):
+    start_index = 0
+    end_index = 13
+    product = []
+    while end_index < len(line_numbers):
+        result = 1
+        index = start_index
+        while index < end_index:
+            result *= int(line_numbers[index])
+            index += 1
+
+        product.append(result)
+
+        start_index += 1
+        end_index += 1
+    result_list.append(max(product))
+
 with open(textFile) as fp:
+    result_list = []
+    file_nums = []
     for line in fp:
         line_nums = list(line.strip('\n'))
-        numbers.extend(line_nums)
+        file_nums.extend(line_nums)
 
-max_product = 0
-i = 0
-size_adjacent = 13
-
-def findProduct(result,list, index):
-    if(integer == 1):
-        return 1
-    else:
-        return integer * findFactorial(integer - 1)
-
-while(len(numbers) > (i+size_adjacent-1)) :
-    print
+    findGreatestProduct(file_nums, result_list)
+    print(max(result_list))
