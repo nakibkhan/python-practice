@@ -1,5 +1,5 @@
 import random
-from CowsAndBullsDeterminator import CowsAndBullsDeterminator
+from cows_and_bulls_determinator import CowsAndBullsDeterminator
 
 if __name__ == "__main__":
     print("Entering Cows and Bulls Game !!!!!")

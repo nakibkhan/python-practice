@@ -2,9 +2,9 @@
 """Returns a list of all the Prime Factors for a number.
 
 Usage:
-    python LargestPrimeFactor.py <number>
+    python largest_prime_factor.py <number>
 
-    example: python LargestPrimeFactor.py 3456789
+    example: python largest_prime_factor.py 3456789
 """
 import math
 import sys

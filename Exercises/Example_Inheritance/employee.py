@@ -1,4 +1,4 @@
-from Exercises.Example_Inheritance.Person import Person
+from Exercises.Example_Inheritance.person import Person
 
 # Inherited or Sub class (Note Person in bracket)
 class Employee(Person):

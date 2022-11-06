@@ -1,5 +1,5 @@
-from Exercises.Example_Inheritance.Employee import Employee
-from Exercises.Example_Inheritance.Person import Person
+from Exercises.Example_Inheritance.employee import Employee
+from Exercises.Example_Inheritance.person import Person
 
 if __name__ == "__main__":
     print('Entering main')
