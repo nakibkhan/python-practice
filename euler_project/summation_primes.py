@@ -1,4 +1,4 @@
-from Util import CheckPrime
+from util import CheckPrime
 
 integer = int(input('Please enter a number : '))
 print('Finding the Summation Prime of %s natural numbers' %(integer))

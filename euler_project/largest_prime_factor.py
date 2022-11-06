@@ -8,7 +8,7 @@ Usage:
 """
 import math
 import sys
-from Util import CheckPrime
+from util import CheckPrime
 
 integer = int(sys.argv[1])
 

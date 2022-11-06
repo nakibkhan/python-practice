@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import sys
-from Util import CheckPalindrome
+from util import CheckPalindrome
 
 integer = int(sys.argv[1])
 i = 2

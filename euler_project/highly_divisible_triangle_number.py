@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import sys
-from Util import CheckAllFactors as checkFactors
+from util import CheckAllFactors as checkFactors
 
 
 def triangleNumber(number):
