@@ -1,4 +1,4 @@
-from exercises.password_generator import password_generator
+from exercises.password_generator.password_generator import PasswordGenerator
 
 if __name__ == "__main__":
 
