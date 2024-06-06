@@ -16,6 +16,6 @@ weights = np.linalg.inv(X.T.dot(X)).dot(X.T).dot(y)
 predictions = X.dot(weights)
 
 # plot the original data and the predictions
-plt.scatter(x, y, color='blue')
+plt.scatter(x, y, color='green')
 plt.plot(x, predictions, color='red')
 plt.show()

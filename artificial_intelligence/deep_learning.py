@@ -20,3 +20,4 @@ model.fit(x_train, y_train, epochs=5)
 # Evaluate the model on the test data
 test_loss, test_acc = model.evaluate(x_test, y_test, verbose=0)
 print('Test accuracy:', test_acc)
+print('Test loss:', test_loss)
