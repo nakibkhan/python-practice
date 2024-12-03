@@ -1,4 +1,4 @@
-def getPrimeFactors(number):
+def get_all_factors(number):
     """Returns a list of all factors
 
         Args:
@@ -13,9 +13,10 @@ def getPrimeFactors(number):
         if number % i == 0:
             all_factors.append(i)
 
-    all_factors.append(number)
+    if number != 1:
+        all_factors.append(number)
     return all_factors
 
 
 if __name__ == "__main__":
-    print(getPrimeFactors(234))
+    print(get_all_factors(234))

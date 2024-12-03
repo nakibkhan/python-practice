@@ -1,7 +1,6 @@
 textFile = 'thousand_digit.txt'
 numbers = []
 
-
 def findGreatestProduct(line_numbers, result_list):
     start_index = 0
     end_index = 13

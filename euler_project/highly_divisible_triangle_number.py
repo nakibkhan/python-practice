@@ -16,7 +16,7 @@ if __name__ == "__main__":
     index = 500000
     result = 1
 
-    while len(checkFactors.getPrimeFactors(result)) <= 500:
+    while len(checkFactors.get_all_factors(result)) <= 500:
         index += 1
         print(index)
         result = triangleNumber(index)
