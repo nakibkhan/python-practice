@@ -1,10 +1,11 @@
 [requires]
-python_version = "3.8"
+python_version = "3.10.2"
 
 [packages]
-matplotlib = "3.4.3"
-numpy = "1.23.3"
+matplotlib = "3.10.3"
+numpy = "2.3.0"
 plotly = "5.9.0"
 pandas = "2.0.2"
 tensorflow = "*"
 pyqt5 = "5.15.2"
+
