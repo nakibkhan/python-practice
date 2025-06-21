@@ -1,3 +1,4 @@
+# Output the greatest product of 13 adjacent digits in the file
 textFile = 'thousand_digit.txt'
 numbers = []
 

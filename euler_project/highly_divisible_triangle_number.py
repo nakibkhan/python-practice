@@ -2,7 +2,6 @@
 import sys
 from util import check_all_factors as checkFactors
 
-
 def triangleNumber(number):
     trinumber = 0
     while number > 1:
@@ -11,14 +10,11 @@ def triangleNumber(number):
 
     return trinumber + 1
 
-
 if __name__ == "__main__":
     index = 500000
     result = 1
 
     while len(checkFactors.get_all_factors(result)) <= 500:
         index += 1
-        print(index)
         result = triangleNumber(index)
-        print(result)
     print(result)
