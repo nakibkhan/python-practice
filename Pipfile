@@ -4,14 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-matplotlib = "3.9.4"
-numpy = "2.0.2"
-plotly = "5.9.0"
-pandas = "2.0.2"
 tensorflow = "2.19.0"
-pyqt5 = "5.15.11"
+keras = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.12.10"
