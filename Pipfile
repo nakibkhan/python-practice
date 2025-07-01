@@ -6,6 +6,10 @@ name = "pypi"
 [packages]
 tensorflow = "2.19.0"
 keras = "*"
+transformers = "*"
+torch = "*"
+tf-keras = "*"
+openai = "0.28"
 
 [dev-packages]
 
