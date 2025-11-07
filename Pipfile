@@ -10,6 +10,7 @@ transformers = "*"
 torch = "*"
 tf-keras = "*"
 openai = "0.28"
+matplotlib = "*"
 
 [dev-packages]
 

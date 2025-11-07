@@ -10,5 +10,6 @@ if __name__ == "__main__":
     while(len(str(userGuessNumber)) < 4):
         userGuessNumber = int(input("Please Enter is a 4 Digit Number "))
 
+    print("User Guessed Number is : ", userGuessNumber)
     cowsAndBullsDeterminator = CowsAndBullsDeterminator(userGuessNumber, random.randint(1000,9999))
     cowsAndBullsDeterminator.determine()

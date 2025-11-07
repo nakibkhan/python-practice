@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from util import check_prime
+from util import check_prime as CheckPrime
 
 number = int(input('Please enter a number : '))
 print('Finding Sum Primes below %s' %(number))
