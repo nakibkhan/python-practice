@@ -8,8 +8,11 @@ tensorflow = "2.19.0"
 keras = "*"
 transformers = "*"
 torch = "*"
+pandas = "*"
+scikit-learn = "*"
 tf-keras = "*"
 openai = "0.28"
+matplotlib = "*"
 
 [dev-packages]
 

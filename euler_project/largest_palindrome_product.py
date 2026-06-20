@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import sys
-from util import check_palindrome
 
 integer = int(sys.argv[1])
 i = 2
@@ -11,7 +10,7 @@ while i <= integer:
     while j <= integer:
         amount = i * j
         cp = CheckPalindrome
-        if cp.isPalindrome(str(amount)) and amount > result:
+        if cp.checkPalindrome(str(amount)) and amount > result:
             result = amount
         j += 1
     i += 1

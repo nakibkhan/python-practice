@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-import sys
 from util import check_all_factors as checkFactors
 
 def triangleNumber(number):
