@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-from util import check_prime
 
 number = int(input('Please enter a number : '))
 print('Finding %s-th Prime Number ' %(number))

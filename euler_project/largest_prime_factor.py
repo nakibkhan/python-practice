@@ -8,7 +8,6 @@ Usage:
 """
 import math
 import sys
-from util import check_prime
 
 integer = int(sys.argv[1])
 

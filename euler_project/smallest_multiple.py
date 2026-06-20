@@ -1,5 +1,3 @@
-from util import check_lcm
-
 number = int(input('Please enter a number : '))
 print('Finding smallest number divisible by number between 1 and %s' % (number))
 print('-------------------------------------------------')

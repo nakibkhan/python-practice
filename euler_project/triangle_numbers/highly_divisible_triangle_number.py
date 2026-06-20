@@ -1,4 +1,4 @@
-from euler_project.util.check_all_factors import get_all_factors
+from util.check_all_factors import get_all_factors
 
 def triangle_number(number):
     trinumber = 0
